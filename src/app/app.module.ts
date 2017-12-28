@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { FooterComponent } from './footer/footer.component';
+import { EventcardComponent } from './eventcard/eventcard.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     NavComponent,
     JumbotronComponent,
-    FooterComponent
+    FooterComponent,
+    EventcardComponent
   ],
   imports: [
     BrowserModule,
